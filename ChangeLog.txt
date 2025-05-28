@@ -1,0 +1,48 @@
+ChangeLog - Pergolă Automatizată cu Arduino UNO
+-----------------------------------------------
+
+Versiune: 1.0  
+Autor: Ilie Ioan-Călin  
+Dată finalizare: Mai 2025
+
+-----------------------------------------------
+
+[11-05-2025] - Inițializare proiect
+- Identificarea componentelor necesare și crearea arhitecturii proiectului
+- Creare structurii de bază a codului Arduino
+- Declarații pini pentru motoare și testat direcțiile (extindere/retragere)
+
+[14-05-2025] - Integrare senzor ploaie
+- Conectare senzor ploaie analogic la A3
+- Implementare citire și prag pentru acționare automată
+
+[14-05-2025] - Integrare LCD 16x2 cu I2C
+- Testare adresă I2C și contrast
+- Afișare stare pergolă în timp real
+
+[17-05-2025] - Adăugare LED-uri de stare
+- LED verde: pergolă retrasă
+- LED roșu: pergolă extinsă
+
+[17-05-2025] - Integrare senzor DHT11
+- Afișare temperatură și umiditate pe LCD
+- Adăugare logică extindere bazată pe praguri meteo
+
+[17-05-2025] - Alternare afișaj pe LCD
+- Implementare comutare automată între stare pergolă și valori senzori
+
+[18-05-2025] - Optimizări
+- Refactorizare cod: separare în funcții
+- Eliminare comenzi redundante către motoare
+- Adăugare funcție animată pentru LCD
+
+[18-05-2025] - Realizare schemă electrică finală
+- Creată în KiCad
+
+[18-05-2025] - Realizare diagramă de semnal
+- Generată în WaveDrom
+
+[21-05-2025] - Validare funcțională și demo
+- Testare a sistemului complet cu toate funcționalitățile active
+- Înregistrare videoclip demonstrativ
+
